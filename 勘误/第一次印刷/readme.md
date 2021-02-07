@@ -1,3 +1,9 @@
+# 81页 拼写错误
+`Micros`修改为`Macros`
+
+# 118页 
+单击`Configuration`->Authentication 修改为`Administration`->Authentication
+
 # 127页 增加说明
 
 · Numeric (unsigned)：64位无符号整数
@@ -34,7 +40,10 @@ shell# **vi** `加粗`/etc/logrotate.d/zabbix_traps
 
 将”OBDC”修改为”ODBC”
 
- 
+# 436页 路径错误
+`vim /etc/zabbix/scripts/nginx_status` 修改为 `vim /etc/zabbix/scripts/check_nginx_status.sh`
+# 439页 路径错误
+`vim /etc/zabbix/scripts/monitor_phpfpm_status` 修改为 `vim /etc/zabbix/scripts/check_phpfpm.sh`
 
 # 471页 示例错误
 
